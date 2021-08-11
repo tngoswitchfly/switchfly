@@ -16,6 +16,12 @@ const myPkg = require('@switchfly/my-package');
 myPkg.hi();  // say hi on the console
 ```
 
+testing with node via command line:
+
+```
+node <test js file name>
+```
+
 To consume in your test.js file (using ESM way):
 
 ```
