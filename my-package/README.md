@@ -16,7 +16,7 @@ const myPkg = require('@switchfly/my-package');
 myPkg.hi();  // say hi on the console
 ```
 
-testing with node via command line:
+Testing with node via command line:
 
 ```
 node <test js file name>
@@ -30,7 +30,7 @@ import * as myPkg from '@switchfly/my-package';
 myPkg.hi();
 ```
 
-testing with node via command line (node only allows imports from within modules):
+Testing with node via command line (node only allows imports from within modules):
 
 ```
 node -r esm <test js file name>
