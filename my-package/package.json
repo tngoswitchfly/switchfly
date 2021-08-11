@@ -1,0 +1,16 @@
+{
+  "name": "@switchfly/my-package",
+  "version": "5.0.0",
+  "description": "test scoped package on npm public registry",
+  "type": "module",
+  "main": "./index.cjs",
+  "exports": {
+    "import": "./wrapper.mjs",
+    "require": "./index.cjs"
+  },
+  "author": "switchfly engineer",
+  "dependencies": {
+    "esm": "~3.2.25"
+  },
+  "license": "UNLICENSED"
+}
